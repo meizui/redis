@@ -11,3 +11,5 @@ wget -c $soure_path -O  $redisrar
 tar -xzvf $redisrar $redisfiles
 cd $redisfiles
 make 
+# 让 redis 以后台进程的形式运行
+# 修改配置文件中daemonize 为 yes
