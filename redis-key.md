@@ -21,7 +21,7 @@ exists key
 type key
 # 删掉一个key
 del key
-# 将这key 已到另外的数据库
+# 将某key 移到另外的数据库
 select 0 
 select 1 切换数据库
 
